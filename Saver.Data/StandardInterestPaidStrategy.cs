@@ -1,5 +1,4 @@
 ﻿using Saver.Domain.Base;
-using Saver.Domain.Model;
 using System;
 
 namespace Saver.Data
