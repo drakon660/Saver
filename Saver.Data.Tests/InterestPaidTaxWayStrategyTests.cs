@@ -3,9 +3,9 @@ using Xunit;
 
 namespace Saver.Data.Tests
 {
-    public class StandardInterestPaidStrategyTests
+    public class InterestPaidTaxWayStrategyTests
     {
-        private readonly StandardInterestPaidStrategy _standardInterestPaidStrategy = new StandardInterestPaidStrategy();
+        private readonly InterestPaidTaxWayStrategy _standardInterestPaidStrategy = new InterestPaidTaxWayStrategy();
 
         [Theory]
         [InlineData(-1,0)]
